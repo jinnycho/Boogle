@@ -1,0 +1,29 @@
+{
+  "name": "boogle",
+  "version": "1.0.0",
+  "description": "Boogle is an LLM-powered answering machine designed to answer any question from multiple sources as simply as possible.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc -p frontend/tsconfig.json",
+    "watch": "tsc -p frontend/tsconfig.json --watch",
+    "start": "npm run build && uv run python -m backend.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinnycho/Boogle.git"
+  },
+  "keywords": [],
+  "author": "Jinny Cho",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jinnycho/Boogle/issues"
+  },
+  "homepage": "https://github.com/jinnycho/Boogle#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
