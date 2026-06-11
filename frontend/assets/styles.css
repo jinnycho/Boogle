@@ -1,10 +1,5 @@
 body {
     font-family: system-ui, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
     margin: 0;
     background: #fafafa;
     color: #222;
@@ -19,4 +14,48 @@ h1 {
 #date {
     font-size: 2.5rem;
     font-weight: 600;
+}
+
+#funfact {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.home-nav {
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar a {
+    color: #222;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #fd8b27;
+    text-decoration: none;
+}
+
+#fact-content {
+    max-width: 600px;
+    min-height: 200px;
+    margin: 32px auto;
+    padding: 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12prgb(187, 187, 187);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
 }
