@@ -4,9 +4,9 @@ node_modules/
 .pnp.js
 
 # Production build artifacts (Matches your tsconfig.json outDir)
-dist/
-build/
-out/
+*/dist/
+*/build/
+*/out/
 
 # TypeScript compilation cache and incremental builds
 *.tsbuildinfo
