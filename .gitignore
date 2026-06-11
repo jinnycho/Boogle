@@ -52,3 +52,6 @@ coverage/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+backend/__pycache__/*
+backend/__init__.py
