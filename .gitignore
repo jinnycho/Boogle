@@ -1,1 +1,54 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts (Matches your tsconfig.json outDir)
+dist/
+build/
+out/
+
+# TypeScript compilation cache and incremental builds
+*.tsbuildinfo
+
+# Source maps (Exclude if you do not want to track them)
+*.js.map
+*.css.map
+
+# Inline generated JS files (Optional)
+# Uncomment the line below if you compile .ts to .js in the same directory
+# *.js
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing coverage reports
+coverage/
+.nyc_output
+
+# IDE and Code Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
