@@ -55,3 +55,5 @@ Thumbs.db
 
 backend/__pycache__/*
 backend/__init__.py
+# Runtime fact store (generated at runtime, not source)
+/data/
